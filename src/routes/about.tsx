@@ -189,7 +189,7 @@ function AboutPage() {
                   </span>
                 </Link>
                 <a
-                  href="/#contact"
+                  href="/geveo-web/#contact"
                   className="inline-flex items-center gap-2 rounded-full border border-border bg-white/70 backdrop-blur px-5 py-2 text-sm font-medium hover:border-primary/40 transition-colors"
                 >
                   Start a conversation
@@ -523,7 +523,7 @@ function AboutPage() {
                 </p>
                 <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
                   <a
-                    href="/#contact"
+                    href="/geveo-web/#contact"
                     className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-5 pr-2 py-2 text-sm font-medium shadow-green hover:brightness-105 transition-all"
                   >
                     Start a Conversation

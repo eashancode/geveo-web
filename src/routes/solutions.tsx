@@ -196,7 +196,7 @@ function SolHero() {
           engineered by senior teams that ship outcomes, not just code.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <a href="/#contact" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-5 pr-2 py-2 text-sm font-medium shadow-green hover:opacity-95 transition">
+          <a href="/geveo-web/#contact" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-5 pr-2 py-2 text-sm font-medium shadow-green hover:opacity-95 transition">
             Discuss Your Project
             <span className="grid h-7 w-7 place-items-center rounded-full bg-primary-foreground/15 group-hover:translate-x-0.5 transition-transform">→</span>
           </a>
@@ -443,7 +443,7 @@ function FinalCTA() {
               it forward.
             </p>
             <div className="mt-7 flex flex-wrap justify-center gap-3">
-              <a href="/#contact" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-5 pr-2 py-2 text-sm font-medium shadow-green hover:opacity-95 transition">
+              <a href="/geveo-web/#contact" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-5 pr-2 py-2 text-sm font-medium shadow-green hover:opacity-95 transition">
                 Start a Conversation
                 <span className="grid h-7 w-7 place-items-center rounded-full bg-primary-foreground/15 group-hover:translate-x-0.5 transition-transform">→</span>
               </a>

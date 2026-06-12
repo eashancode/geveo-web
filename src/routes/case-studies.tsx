@@ -316,7 +316,7 @@ function CSHero() {
           <a href="#trust" className="inline-flex items-center gap-2 rounded-full border border-border bg-white/80 px-5 py-2.5 text-sm font-medium hover:border-border-strong transition">
             <Globe className="h-4 w-4 text-primary" /> Trust & Recognition
           </a>
-          <a href="/#contact" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-5 pr-2 py-2 text-sm font-medium shadow-green hover:opacity-95 transition">
+          <a href="/geveo-web/#contact" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-5 pr-2 py-2 text-sm font-medium shadow-green hover:opacity-95 transition">
             Start a project
             <span className="grid h-7 w-7 place-items-center rounded-full bg-primary-foreground/15 group-hover:translate-x-0.5 transition-transform">→</span>
           </a>

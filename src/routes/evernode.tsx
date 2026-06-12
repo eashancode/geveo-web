@@ -98,7 +98,7 @@ function EvernodePage() {
                   <ArrowUpRight className="h-4 w-4" />
                 </a>
                 <a
-                  href="/#contact"
+                  href="/geveo-web/#contact"
                   className="inline-flex items-center gap-2 rounded-full border border-border border-primary/80 bg-transparent backdrop-blur px-5 py-2 text-sm font-medium text-primary hover:border-primary hover:bg-primary hover:text-white transition-colors"
                 >
                   Talk to us
@@ -203,7 +203,7 @@ function EvernodePage() {
                   </p>
                   <div className="mt-8 flex flex-wrap gap-3">
                     <a
-                      href="/#contact"
+                      href="/geveo-web/#contact"
                       className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2 text-sm font-medium shadow-green hover:brightness-105 transition-all"
                     >
                       Contact our team
@@ -241,7 +241,7 @@ function EvernodePage() {
                 </p>
                 <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
                   <a
-                    href="/#contact"
+                    href="/geveo-web/#contact"
                     className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-5 pr-2 py-2 text-sm font-medium shadow-green hover:brightness-105 transition-all"
                   >
                     Talk to EverNode experts

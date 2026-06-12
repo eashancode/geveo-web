@@ -168,7 +168,7 @@ function CaseStudyDetail() {
                       <dd className="font-medium">End-to-end</dd>
                     </div>
                   </dl>
-                  <a href="/#contact" className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground py-2.5 text-sm font-medium shadow-green hover:opacity-95 transition">
+                  <a href="/geveo-web/#contact" className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground py-2.5 text-sm font-medium shadow-green hover:opacity-95 transition">
                     Discuss a similar project <ArrowUpRight className="h-4 w-4" />
                   </a>
                 </div>
