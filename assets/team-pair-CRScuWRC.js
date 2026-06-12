@@ -1,0 +1,1 @@
+const e="/geveo-web/assets/team-standup-CpXkPvKB.jpg",a="/geveo-web/assets/team-review-RbJ7Qlzp.jpg",t="/geveo-web/assets/team-whiteboard-BDeJFnet.jpg",s="/geveo-web/assets/team-pair-Cfjk9UT9.jpg";export{a,e as b,s as c,t};
