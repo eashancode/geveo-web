@@ -289,37 +289,61 @@ function CaseStudiesPage() {
 
 function CSHero() {
   return (
-    <section className="relative overflow-hidden pt-32 pb-16 md:pt-36 md:pb-20">
-      <div aria-hidden className="absolute inset-0 pointer-events-none">
-        <div className="absolute inset-0" style={{
-          background: "linear-gradient(180deg, #f5fbff 0%, #eef6ff 40%, #f7fbf9 100%)",
-        }} />
-        <div className="absolute -top-32 -left-24 h-[420px] w-[420px] rounded-full blur-3xl glow-orb-1"
-          style={{ background: "radial-gradient(circle, rgba(83,173,111,0.22), transparent 70%)" }} />
-        <div className="absolute -top-10 right-[-100px] h-[420px] w-[420px] rounded-full blur-3xl glow-orb-2"
-          style={{ background: "radial-gradient(circle, rgba(56,140,220,0.20), transparent 70%)" }} />
-        <div className="absolute inset-0 blueprint-bg opacity-[0.18] [mask-image:radial-gradient(ellipse_at_center,black_25%,transparent_75%)]" />
-      </div>
-      <div className="container-x relative text-center">
-        <div className="inline-flex items-center gap-2 rounded-full border border-white/70 bg-white/70 backdrop-blur px-3 py-1 text-xs text-muted-foreground shadow-sm">
-          <Sparkles className="h-3 w-3 text-primary" />
-          Products · Platforms · dApps
-        </div>
-        <h1 className="mt-6 font-display text-4xl sm:text-5xl lg:text-[58px] leading-[1.05] tracking-[-0.03em] font-semibold text-balance max-w-4xl mx-auto">
-          Products & Platforms We've Built
-        </h1>
-        <p className="mt-5 max-w-2xl mx-auto text-lg text-muted-foreground text-pretty">
-          From enterprise SaaS applications to AI-powered systems and decentralized Web3 platforms,
-          explore the digital products engineered by Geveo.
-        </p>
-        <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <a href="#trust" className="inline-flex items-center gap-2 rounded-full border border-border bg-white/80 px-5 py-2.5 text-sm font-medium hover:border-border-strong transition">
-            <Globe className="h-4 w-4 text-primary" /> Trust & Recognition
-          </a>
-          <a href="/geveo-web/#contact" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-5 pr-2 py-2 text-sm font-medium shadow-green hover:opacity-95 transition">
-            Start a project
-            <span className="grid h-7 w-7 place-items-center rounded-full bg-primary-foreground/15 group-hover:translate-x-0.5 transition-transform">→</span>
-          </a>
+    <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+      <div
+        aria-hidden
+        className="absolute inset-0 -z-10"
+        style={{
+          background:
+            "radial-gradient(60% 50% at 20% 0%, color-mix(in oklab, var(--primary) 12%, transparent) 0%, transparent 60%), radial-gradient(50% 40% at 90% 10%, rgba(56,140,220,0.10) 0%, transparent 60%)",
+        }}
+      />
+      <div
+        aria-hidden
+        className="absolute inset-0 -z-10 opacity-[0.35]"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right, color-mix(in oklab, var(--foreground) 6%, transparent) 1px, transparent 1px), linear-gradient(to bottom, color-mix(in oklab, var(--foreground) 6%, transparent) 1px, transparent 1px)",
+          backgroundSize: "56px 56px",
+          maskImage:
+            "radial-gradient(ellipse at top, black 30%, transparent 75%)",
+        }}
+      />
+      <div className="container-x">
+        <div className="max-w-3xl">
+          <div className="eyebrow inline-flex items-center gap-2">
+            <Sparkles className="h-3.5 w-3.5" /> Case studies
+          </div>
+          <h1 className="mt-4 font-display text-4xl md:text-6xl tracking-[-0.03em] text-balance font-semibold">
+            <span
+                  className="bg-gradient-to-r from-[#53AB6F]  to-[#20B2AA] bg-clip-text text-transparent"
+                >
+                  Real-world digital products
+                </span> built for measurable impact.
+          </h1>
+          <p className="mt-6 text-lg text-muted-foreground text-pretty max-w-2xl">
+            Explore our case studies across SaaS, AI and Web3 — from enterprise platforms to decentralized applications.
+          </p>
+          <p className="mt-4 text-muted-foreground text-pretty max-w-2xl">
+            Each story highlights how Geveo partners with teams to solve business challenges, speed time-to-market and deliver scalable digital capabilities.
+          </p>
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            <a
+              href="/geveo-web/#contact"
+              className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-5 pr-2 py-2 text-sm font-medium shadow-green hover:brightness-105 transition-all"
+            >
+              Start a project
+              <span className="grid h-7 w-7 place-items-center rounded-full bg-primary-foreground/15 group-hover:translate-x-0.5 transition-transform">
+                →
+              </span>
+            </a>
+            <a
+              href="#trust"
+              className="inline-flex items-center gap-2 rounded-full border border-border bg-white/70 backdrop-blur px-5 py-2 text-sm font-medium hover:border-primary/40 transition-colors"
+            >
+              <Globe className="h-4 w-4 text-primary" /> Trust & Recognition
+            </a>
+          </div>
         </div>
       </div>
     </section>

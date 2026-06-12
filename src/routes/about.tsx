@@ -157,11 +157,7 @@ function AboutPage() {
               <h1 className="mt-4 font-display text-4xl md:text-6xl tracking-[-0.03em] text-balance font-semibold">
                 Your Trusted{" "}
                 <span
-                  className="bg-clip-text text-transparent"
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(120deg, var(--primary), #2f9bd6)",
-                  }}
+                  className="bg-gradient-to-r from-[#53AB6F]  to-[#20B2AA] bg-clip-text text-transparent"
                 >
                   Digital Transformation
                 </span>{" "}

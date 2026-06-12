@@ -8,15 +8,6 @@ const milestones = [
   { y: "2026", t: "Global delivery partner", d: "Today, our teams support enterprises across multiple continents and industries." },
 ];
 
-const values = [
-  { t: "Collaboration", d: "We build with our clients, not for them. Shared problems, shared wins." },
-  { t: "Innovation with purpose", d: "We pursue new ideas where they create real value not for the sake of novelty." },
-  { t: "Ownership", d: "We take responsibility for outcomes, not just deliverables." },
-  { t: "Continuous learning", d: "Our craft evolves constantly. So do we as engineers and as a team." },
-  { t: "Customer success", d: "Our success is defined by the success of the people we work with." },
-  { t: "Integrity", d: "Direct, honest, dependable in code, in conversation, in commitments." },
-];
-
 export function Story() {
   return (
     <section id="company" className="py-24 md:py-32 bg-surface border-y border-border">
@@ -50,23 +41,6 @@ export function Story() {
                 className="w-full h-full object-cover aspect-[5/4]"
               />
             </div>
-          </div>
-        </div>
-
-        <div className="mt-24">
-          <div className="max-w-2xl">
-            <div className="eyebrow">Our values</div>
-            <h3 className="mt-3 font-display text-3xl md:text-4xl tracking-[-0.02em]">
-              What we believe shapes how we build.
-            </h3>
-          </div>
-          <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border rounded-2xl overflow-hidden border border-border">
-            {values.map((v) => (
-              <div key={v.t} className="bg-background p-7 hover:bg-surface-elevated transition-colors">
-                <h4 className="font-display text-xl">{v.t}</h4>
-                <p className="mt-2 text-sm text-muted-foreground text-pretty">{v.d}</p>
-              </div>
-            ))}
           </div>
         </div>
       </div>
